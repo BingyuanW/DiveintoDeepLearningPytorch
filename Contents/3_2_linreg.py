@@ -1,5 +1,5 @@
 """
-线性回归的从零开始实现
+3.2 线性回归的从零开始实现
 https://tangshusen.me/Dive-into-DL-PyTorch/#/    网页版图书
 https://github.com/ShusenTang/Dive-into-DL-PyTorch  源码地址
 """
