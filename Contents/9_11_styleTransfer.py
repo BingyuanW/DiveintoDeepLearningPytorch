@@ -16,10 +16,10 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # 内容图像
 content_img = Image.open('Sea.jpg')
 
-# 合成图像
+# 样式图像
 style_img = Image.open('StarryNight.jpg')
 
-rgb_mean = np.array([0.485, 0.456, 0.406])
+rgb_mean = np.array([0.485, 0.456, 0.406])  # 预训练模型所用图片数据的均值和标准差
 rgb_std = np.array([0.229, 0.224, 0.225])
 
 
